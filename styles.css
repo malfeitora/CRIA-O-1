@@ -1,118 +1,58 @@
-/* Resetando margens e padding */
-* {
+/* Tema medieval e centralizado */
+
+body {
+  background-color: #1a1a1a;
+  color: #e0cba8;
+  font-family: 'Georgia', serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  text-align: center;
+  background-image: url('backgrounds/medieval_bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-/* Estilo para o corpo */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-}
-
-/* Estilizando o menu de navegação */
-nav {
-  background-color: #2d2d2d;
-  padding: 10px 0;
-}
-
-.menu {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-
-.menu li {
-  display: inline-block;
-}
-
-.menu a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-  padding: 10px 15px;
-  border-radius: 5px;
-}
-
-.menu a:hover {
-  background-color: #575757;
-}
-
-/* Estilizando as páginas */
-.page {
-  display: none; /* As páginas ficam ocultas por padrão */
-  padding: 50px 20px;
-  margin: 20px 0;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-/* Estilos Gerais */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #1d1d1d;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-/* Container principal */
 .container {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    width: 80%;
-    max-width: 600px;
+  padding: 60px 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: auto;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #000;
 }
 
-/* Título */
 h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #d4af37;
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #f5d76e;
 }
 
-/* Menu de botões */
-.menu {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.subtext {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+  color: #ddd;
 }
 
-/* Estilização dos botões */
-button {
-    background-color: #555;
-    color: #fff;
-    font-size: 1.2rem;
-    padding: 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
-    width: 100%;
+.menu-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
-/* Efeito de hover e clique nos botões */
-button:hover {
-    background-color: #444;
-    transform: scale(1.05);
+.menu-button {
+  background-color: #2f2f2f;
+  color: #f5d76e;
+  border: 2px solid #f5d76e;
+  padding: 15px 30px;
+  font-size: 1.1em;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
-button:active {
-    background-color: #333;
-    transform: scale(1);
+.menu-button:hover {
+  background-color: #f5d76e;
+  color: #2f2f2f;
+  transform: scale(1.05);
 }
