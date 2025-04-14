@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-/* Corpo do site */
+/* Estilo para o corpo */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -41,8 +41,9 @@ nav {
   background-color: #575757;
 }
 
-/* Estilizando as seções */
-section {
+/* Estilizando as páginas */
+.page {
+  display: none; /* As páginas ficam ocultas por padrão */
   padding: 50px 20px;
   margin: 20px 0;
   background-color: #fff;
@@ -54,15 +55,3 @@ h1 {
   font-size: 32px;
   margin-bottom: 20px;
 }
-
-/* Responsividade: Menu e seções se ajustando em telas menores */
-@media (max-width: 768px) {
-  .menu {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  section {
-    padding: 30px 10px;
-  }
-                             }
