@@ -1,80 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu RPG - Menu</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-  <!-- Menu -->
-  <nav>
-    <ul class="menu">
-      <li><a href="#" data-target="classes">Classes</a></li>
-      <li><a href="#" data-target="history">History</a></li>
-      <li><a href="#" data-target="great-runes">Great Runes</a></li>
-      <li><a href="#" data-target="spells">Spells</a></li>
-      <li><a href="#" data-target="learning-books">Learning Books</a></li>
-      <li><a href="#" data-target="staffs">Staffs</a></li>
-    </ul>
-  </nav>
-
-  <!-- Seções (páginas) do RPG -->
-  <div id="classes" class="page">
-    <h1>Classes</h1>
-    <p>Aqui você escolhe a sua classe! Guerreiro, Mago, Arqueiro, etc.</p>
-  </div>
-
-  <div id="history" class="page">
-    <h1>History</h1>
-    <p>A história do seu personagem começa aqui. Tudo sobre o mundo do RPG.</p>
-  </div>
-
-  <div id="great-runes" class="page">
-    <h1>Great Runes</h1>
-    <p>As grandes runas que você pode encontrar ao longo da jornada.</p>
-  </div>
-
-  <div id="spells" class="page">
-    <h1>Spells</h1>
-    <p>Aqui você pode aprender e escolher suas magias.</p>
-  </div>
-
-  <div id="learning-books" class="page">
-    <h1>Learning Books</h1>
-    <p>Livros de aprendizado que permitem melhorar as habilidades e magias do seu personagem.</p>
-  </div>
-
-  <div id="staffs" class="page">
-    <h1>Staffs</h1>
-    <p>Os staffs que você pode utilizar como parte de seu arsenal mágico.</p>
-  </div>
-
-  <script src="script.js"></script>
-</body>
-</html>
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu do RPG</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lord of Tree - Menu</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="container">
-        <h1>Menu do RPG</h1>
-        <div class="menu">
-            <button onclick="window.location.href='classes.html'">Classes</button>
-            <button onclick="window.location.href='history.html'">History</button>
-            <button onclick="window.location.href='great_runes.html'">Great Runes</button>
-            <button onclick="window.location.href='spells.html'">Spells</button>
-            <button onclick="window.location.href='learning_books.html'">Learning Books</button>
-            <button onclick="window.location.href='staffs.html'">Staffs</button>
-        </div>
-    </div>
+  <audio autoplay loop>
+    <source src="musicas/tema-rpg.mp3" type="audio/mpeg">
+    Seu navegador não suporta a tag de áudio.
+  </audio>
 
-    <script src="scripts.js"></script>
+  <div class="container">
+    <h1>Lord of Tree</h1>
+    <p class="subtext">Escolha uma das seções para explorar seu destino.</p>
+
+    <div class="menu-buttons">
+      <a href="classes.html" class="menu-button">Classes</a>
+      <a href="history.html" class="menu-button">História</a>
+      <a href="great_runes.html" class="menu-button">Great Runes</a>
+      <a href="spells.html" class="menu-button">Spells</a>
+      <a href="learning_books.html" class="menu-button">Learning Books</a>
+      <a href="staffs.html" class="menu-button">Staffs</a>
+    </div>
+  </div>
 </body>
 </html>
