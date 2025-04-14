@@ -3,52 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu RPG</title>
+  <title>Meu RPG - Menu</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
   <!-- Menu -->
   <nav>
     <ul class="menu">
-      <li><a href="#classes">Classes</a></li>
-      <li><a href="#history">History</a></li>
-      <li><a href="#great-runes">Great Runes</a></li>
-      <li><a href="#spells">Spells</a></li>
-      <li><a href="#learning-books">Learning Books</a></li>
-      <li><a href="#staffs">Staffs</a></li>
+      <li><a href="#" data-target="classes">Classes</a></li>
+      <li><a href="#" data-target="history">History</a></li>
+      <li><a href="#" data-target="great-runes">Great Runes</a></li>
+      <li><a href="#" data-target="spells">Spells</a></li>
+      <li><a href="#" data-target="learning-books">Learning Books</a></li>
+      <li><a href="#" data-target="staffs">Staffs</a></li>
     </ul>
   </nav>
 
-  <!-- Seções -->
-  <section id="classes">
+  <!-- Seções (páginas) do RPG -->
+  <div id="classes" class="page">
     <h1>Classes</h1>
-    <!-- Conteúdo das classes -->
-  </section>
-  
-  <section id="history">
+    <p>Aqui você escolhe a sua classe! Guerreiro, Mago, Arqueiro, etc.</p>
+  </div>
+
+  <div id="history" class="page">
     <h1>History</h1>
-    <!-- Conteúdo da História -->
-  </section>
-  
-  <section id="great-runes">
+    <p>A história do seu personagem começa aqui. Tudo sobre o mundo do RPG.</p>
+  </div>
+
+  <div id="great-runes" class="page">
     <h1>Great Runes</h1>
-    <!-- Conteúdo das Great Runes -->
-  </section>
-  
-  <section id="spells">
+    <p>As grandes runas que você pode encontrar ao longo da jornada.</p>
+  </div>
+
+  <div id="spells" class="page">
     <h1>Spells</h1>
-    <!-- Conteúdo dos feitiços -->
-  </section>
-  
-  <section id="learning-books">
+    <p>Aqui você pode aprender e escolher suas magias.</p>
+  </div>
+
+  <div id="learning-books" class="page">
     <h1>Learning Books</h1>
-    <!-- Conteúdo dos livros de aprendizagem -->
-  </section>
-  
-  <section id="staffs">
+    <p>Livros de aprendizado que permitem melhorar as habilidades e magias do seu personagem.</p>
+  </div>
+
+  <div id="staffs" class="page">
     <h1>Staffs</h1>
-    <!-- Conteúdo dos staffs -->
-  </section>
+    <p>Os staffs que você pode utilizar como parte de seu arsenal mágico.</p>
+  </div>
 
   <script src="script.js"></script>
 </body>
